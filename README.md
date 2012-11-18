@@ -1,4 +1,4 @@
-## My Resume
+## My Résumé
 Feel free to check it out and give it a look
 
 ```sh

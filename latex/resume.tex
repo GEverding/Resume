@@ -3,6 +3,7 @@
 \usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
 %\usepackage{newcent}   % uses new century schoolbook postscript font
 \setlength{\textwidth}{5.1in} % set width of text portion
+\usepackage{hyperref}
 
 \begin{document}
 
@@ -13,7 +14,7 @@
  \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
 % address begins here
 % Again, the address lines must be centered over entire width of resume:
- \moveleft.5\hoffset\centerline{137 University Ave. W}
+ \moveleft.5\hoffset\centerline{137 University Ave. W.}
  \moveleft.5\hoffset\centerline{Waterloo, Ontario}
  \moveleft.5\hoffset\centerline{gseverdi@uwaterloo.ca}
  \moveleft.5\hoffset\centerline{github.com/geverding}
@@ -26,7 +27,7 @@
 Strong problem solving and analytical skills\\
 Experienced with organizing a multi-discipline and remote team\\
 Comfortable in a constantly evolving and fast-paced environment\\
-Work well in a group environment and with minimal supervision
+Effective in a group environment and with minimal supervision
 
 \section{TECHNICAL\\PROFICIENCY}
 {\sl Languages:} Javascript, Scala, Haskell, C\\
@@ -43,9 +44,9 @@ University of Waterloo, Waterloo, Ontario \hfill Sept. 2010 - Present
 {\sl Software Developer} \hfill Jan. 2014 - April 2013 \\
 Auvik Networks, Waterloo, ON.
 \begin{itemize}  \itemsep -2pt %reduce space between items
-  \item Improved the core backend system that aggregates Syslog, SNMP Trap and internally generated events
-  \item Implemented reactive UI to allow users to dig into the systems and identify problems through data visualization
-  \item Optimized the events displayed to the user by adding a scoring and classification mechanism
+  \item Improved the core backend system that processes Syslog, SNMP Trap events by implementing a simple API to handle insertions
+  \item Utilized visual representations of captured logs to simplify the process of identifying problems with users networks
+  \item Optimized the data displayed to the user by adding a scoring and classification mechanism to only display key events
 \end{itemize}
 
 {\sl Software Developer} \hfill May 2013 - Aug. 2013 \\
@@ -83,19 +84,19 @@ International Datacasting, Ottawa, ON.
 
 \section{RELEVANT PROJECTS}
 
-{\sl WikiWalk (http://wikiwalk.herokuapp.com) } \\
+{\sl WikiWalk (\href{http://wikiwalk.herokuapp.com}{wikiwalk.herokuapp.com}) } \\
 Visualization of The Wikipedia Game
 \begin{itemize} \itemsep -2pt
-  \item Generates a tree of interconnected Wikipedia articles given a user specified seed
+  \item Generated a tree of interconnected Wikipedia articles given a user specified seed
   %\item Users can specify the number of links to follow on each page and the depth of the graph
   %\item Subsequent pages are randomly selected from all the links on the parent page
   \item Built for the Sortable \{data\} Hackathon using Node.js, Bootstrap, and d3.js
 \end{itemize}
 
-{\sl United (http://united.monstercat.com) } \\
+{\sl United (\href{http://united.monstercat.com}{united.monstercat.com}) } \\
 Web Promotion for Monstercat's United Album
 \begin{itemize} \itemsep -2pt
-  \item Utilized Google's Map API to display users geographical locations around the globe
+  \item Utilized Google's Map API to displayed users geographical locations around the globe
   \item Featured a real-time, scrolling news feed and constantly updating map
 \end{itemize}
 
@@ -103,8 +104,8 @@ Web Promotion for Monstercat's United Album
 {\sl Co-Chair} \hfill Feb. 2013 - Present\\
 CNIB National Youth Council
 \begin{itemize}\itemsep -2pt
-  \item New initiative to foster a sense of community and discussion in the Blind and Partially Sighted youth across Canada
-  \item Working with CNIB staff and volunteers to build a website that brings together information targeted at youth
+  \item Developed new initiative to foster a sense of community and discussion in the Blind and Partially Sighted youth across Canada
+  \item Organized the collection of resources relating to blind and partially signed youth with the goal of publishing these resources online
 \end{itemize}
 
 {\sl Assistant Coach} \hfill Nov. 2008 - May 2010\\

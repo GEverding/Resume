@@ -1,0 +1,71 @@
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt]{letter} % Default font size of the document, change to 10pt to fit more text
+
+% \usepackage{newcent} % Default font is the New Century Schoolbook PostScript font 
+% \usepackage{helvet} % Uncomment this (while commenting the above line) to use the Helvetica font
+\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+
+% Margins
+\topmargin=-1in % Moves the top of the document 1 inch above the default
+\textheight=8.5in % Total height of the text on the page before text goes on to the next page, this can be increased in a longer letter
+\oddsidemargin=-10pt % Position of the left margin, can be negative or positive if you want more or less room
+\textwidth=6.5in % Total width of the text, increase this if the left margin was decreased and vice-versa
+
+\let\raggedleft\raggedright % Pushes the date (at the top) to the left, comment this line to have the date on the right
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{letter}{Mrs. Jane Smith \\
+Recruitment Officer \\
+The Corporation \\
+123 Pleasant Lane \\
+City, State 12345} 
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME & ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{center}
+	\large\textbf{Garrett Everding} \\ % Your name
+	% \vspace{15pt} \hrule height 1pt % If you would like a horizontal line separating the name from the address, uncomment the line to the left of this text
+ \moveleft\hoffset\vbox{\hrule width\textwidth height 1pt}\smallskip
+	137 University Ave. W. \\ 
+	Waterloo, ON \\ 
+	(226) 868-5820
+\end{center} 
+\vfill
+
+\signature{Garrett Everding} % Your name for the signature at the bottom
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT SECTION
+%----------------------------------------------------------------------------------------
+
+\opening{Dear Mrs. Smith,}
+ 
+Here is why you should hire me. I am a fourth year student at the University of Waterloo in Computer Engineering. This has given me a combined 20 months of real world experience. For 8 of those months I was one of two developers working on a platform to manage a growing electronic record label. For the last year I have been working with a team to build a council whose primary goal is to create programs that encourage a sense of community among blind and partially sighted youth.
+
+I am not your typical intern. I am not someone who spends each and every day writing code. I am the person you should hire if you want someone who will push projects forward because I am passionate about them and because I believe in them. I am a very motivated and dedicated worker and I work well both as a member of a team and on my own.
+
+I am looking to work for a company where I am surrounded by passionate and driven people who want to push what is possible and have fun doing it. I want to find a company that isn’t afraid to reimagine who they are and what they are doing. I want to work in an environment that fosters creativity and new ideas. I believe that \textbf{Company Name} is this company and that is why I want to work for you.
+
+Regards, \\ \\
+
+Garrett Everding
+
+
+% \encl{Curriculum vitae, employment form} % List your enclosed documents here, comment this out to get rid of the "encl:"
+
+%----------------------------------------------------------------------------------------
+
+\end{letter}
+
+\end{document}
